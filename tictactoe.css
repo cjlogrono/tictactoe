@@ -1,0 +1,151 @@
+main .row {
+  background: #616161;
+  background: -webkit-linear-gradient(#859398, #616161);
+  background: -o-linear-gradient(#859398, #616161);
+  background: -moz-linear-gradient(#859398, #616161);
+  background: linear-gradient(#859398, #616161);
+  font-family: Gloria Hallelujah;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+.width, .board, .stats, .title, .interface {
+  width: 320px;
+}
+
+.turn {
+  color: #1CB5E0;
+}
+
+.won, .draw {
+  color: #1CB5E0;
+  text-shadow: 0px 0px 3px white;
+  font-size: 65px !important;
+}
+
+.draw {
+  color: red;
+}
+
+.interface {
+  background: black;
+  background: -webkit-linear-gradient(#434343, black);
+  background: -o-linear-gradient(#434343, black);
+  background: -moz-linear-gradient(#434343, black);
+  background: linear-gradient(#434343, black);
+  border: 2px solid #1CB5E0;
+  border-radius: 10px;
+}
+
+.users {
+  height: 100%;
+}
+.users p {
+  margin-bottom: 0px;
+}
+.users div:first-child p {
+  padding: 15px 15px;
+  font-size: 25px;
+}
+.users div:last-child div p {
+  padding: 15px 0px;
+  font-size: 22px;
+}
+.users div:last-child div p:hover {
+  text-decoration: underline;
+}
+
+.player {
+  height: 100%;
+}
+.player p {
+  margin-bottom: 0px;
+}
+.player div.col-xs-12:first-child p {
+  padding: 0px 5px;
+  font-size: 25px;
+}
+.player div:nth-child(2) div p {
+  font-size: 50px;
+}
+.player div:nth-child(2) div p:hover {
+  color: #1CB5E0;
+}
+.player div:nth-child(2) div:first-child {
+  text-align: right;
+}
+.player div:nth-child(2) div:first-child p {
+  padding-right: 20px;
+}
+.player div:nth-child(2) div:last-child {
+  text-align: left;
+}
+.player div:nth-child(2) div:last-child p {
+  padding-left: 20px;
+}
+.player div.col-xs-12:last-child {
+  text-align: left;
+}
+.player div.col-xs-12:last-child p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+.player div.col-xs-12:last-child p:hover {
+  color: red;
+}
+
+.board {
+  height: 320px;
+  padding: 10px !important;
+}
+.board .col-xs-12 {
+  height: 33.33%;
+}
+.board .col-xs-12 .col-xs-4 {
+  height: 100%;
+}
+.board .col-xs-12 .col-xs-4 p {
+  font-size: 60px;
+}
+.board .col-xs-12:first-child .col-xs-4:nth-child(2) {
+  border-right: 2px solid #1CB5E0;
+  border-left: 2px solid #1CB5E0;
+}
+.board .col-xs-12:nth-child(2) .col-xs-4:first-child {
+  border-bottom: 2px solid #1CB5E0;
+  border-top: 2px solid #1CB5E0;
+}
+.board .col-xs-12:nth-child(2) .col-xs-4:nth-child(2) {
+  border: 2px solid #1CB5E0;
+}
+.board .col-xs-12:nth-child(2) .col-xs-4:last-child {
+  border-bottom: 2px solid #1CB5E0;
+  border-top: 2px solid #1CB5E0;
+}
+.board .col-xs-12:last-child .col-xs-4:nth-child(2) {
+  border-right: 2px solid #1CB5E0;
+  border-left: 2px solid #1CB5E0;
+}
+
+.title h1 {
+  font-size: 26px;
+  padding: 15px 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.stats p {
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.stats .col-xs-6:last-child p:hover {
+  color: red;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0;
+}

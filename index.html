@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Tic Tac Toe Game</title>
+
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="tictactoe.css">
+  
+  </head>
+  <body>
+    <main>
+  <div class="row">
+    <div class=" interface col-xs-12">
+      <div class="title col-xs-12"><h1>Virtual Tic Tac Toe</h1></div>
+      <div class="users col-xs-12">
+        
+          <div class="col-xs-12"><p>How many players are going to play?</p></div>
+          <div class="col-xs-12">
+          
+            <div class="col-xs-6"><p>One Player</p></div>
+            <div class="col-xs-6"><p>Two Players</p></div>
+          
+          </div>
+        
+        </div>
+      <div class="player col-xs-12">
+        
+          <div class="col-xs-12"><p>Player #1, will you like to be X or O?</p></div>
+          <div class="col-xs-12">
+          
+            <div class="col-xs-6"><p>X</p></div>
+            <div class="col-xs-6"><p>O</p></div>
+          
+          </div>
+          <div class="col-xs-12"><p><span class="glyphicon glyphicon-arrow-left"></span> Back</p></div>
+        
+        </div>
+      <div class="board col-xs-12">
+      
+        <div class="col-xs-12">
+        
+          <div class="col-xs-4"><p id="square1"></p></div>
+          <div class="col-xs-4"><p id="square2"></p></div>
+          <div class="col-xs-4"><p id="square3"></p></div>
+        
+        </div>   
+        <div class="col-xs-12">
+        
+          <div class="col-xs-4"><p id="square4"></p></div>
+          <div class="col-xs-4"><p id="square5"></p></div>
+          <div class="col-xs-4"><p id="square6"></p></div>
+        
+        </div> 
+        <div class="col-xs-12">
+        
+          <div class="col-xs-4"><p id="square7"></p></div>
+          <div class="col-xs-4"><p id="square8"></p></div>
+          <div class="col-xs-4"><p id="square9"></p></div>
+        
+        </div> 
+      
+      </div>
+      <div class="stats col-xs-12">
+
+        <div class="col-xs-6"><p class="turn">Player #1: <span>0</span></p></div>
+        <div class="col-xs-6"><p>Player #2: <span>0</span></p></div>
+        <div class="col-xs-6"><p>Draws: <span>0</span></p></div>
+        <div class="col-xs-6"><p>Reset Game</p></div>
+
+      </div>
+    </div>
+  </div>
+</main>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  
+  <script src="tictactoeVar.js"></script>
+  <script src="tictactoeSetup.js"></script>
+  <script src="tictactoeLogic.js"></script>
+  </body>
+</html>
